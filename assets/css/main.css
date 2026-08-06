@@ -321,7 +321,7 @@ h2 {
         display: block;
         position: absolute;
         visibility: hidden;
-        left: -250%;
+        left: -335%;
         top: 90% !important;
         opacity: 0;
         transition: 0.0s;
@@ -329,7 +329,7 @@ h2 {
         z-index: 99;
         box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
     }
-
+    
     .navmenu .dropdown ul li {
         min-width: 200px;
     }
@@ -374,6 +374,7 @@ h2 {
 
 .largeDropdown {
     width: 100%;
+    min-width: 1150px;
     padding-top: 16px !important;
 }
 
@@ -2531,7 +2532,7 @@ blog-section {
 .latest-blog {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     height: 100%;
 }
 
@@ -2540,7 +2541,7 @@ blog-section {
     gap: 18px;
     background: #fff;
     border-radius: 18px;
-    padding: 18px;
+    padding: 16px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, .06);
     transition: .4s;
 }
@@ -2575,21 +2576,21 @@ blog-section {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .blog-item h5 {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 22px;
     color: #132238;
-    margin-bottom: 12px;
+    margin-bottom: 2px;
 }
 
 .blog-item a {
     margin-top: auto;
     text-decoration: none;
     color: #0056d2;
-    font-weight: 600;
+    font-size:15px;
 }
 
 .blog-item a i {
@@ -3079,7 +3080,7 @@ blog-section {
 
     display: flex;
 
-    gap: 15px;
+    gap: 8px;
 
     align-items: flex-start;
 
@@ -3220,4 +3221,9 @@ blog-section {
     gap: 6px;
     flex-wrap: wrap;
 }
+}
+.faq-content .btn{
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 600;
 }
